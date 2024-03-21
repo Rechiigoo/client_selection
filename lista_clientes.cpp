@@ -1,11 +1,9 @@
 #include <iostream>
 #include <fstream>	
 #include <vector>
-#include <algorithm>
 #include <ctime> 
 using namespace std;
-const char TERMINADOR = ' ';
-const char END_TEXT = '#';
+
 vector<string> clientes, escogidos;
 
 bool found(vector<string> w, string s){
@@ -21,6 +19,8 @@ bool found(vector<string> w, string s){
 correos dados
 * @param argv correos de los clientes
 * @ret correos de los clientes
+* How to compile: g++ -std=c++11 -o lista_clientes lista_clientes.cpp
+* How to use: ./lista_clientes [text file]
 */
 int main(int argc, char ** argv){
 	if(argc != 2){
@@ -29,10 +29,8 @@ int main(int argc, char ** argv){
 		return 1;
 	}
 	else{
-		// Open the file
-    	std::ifstream inputFile(argv[1]);
+    	ifstream inputFile(argv[1]);
 
-    // Check if the file is opened successfully
     	if (!inputFile) {
         	std::cerr << "Error: Unable to open the file." << std::endl;
         	return 1;
