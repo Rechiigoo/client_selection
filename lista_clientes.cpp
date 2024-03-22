@@ -30,9 +30,9 @@ correos dados
 * How to use: ./lista_clientes [text file]
 */
 int main(int argc, char ** argv){
-	if(argc != 2){
+	if(argc != 3){
 		cout << "Need to have a .txt file as a secondary argument." << endl;
-		cout << "Proper file usage: ./lista_clientes [posibles_clientes.txt]" << endl;
+		cout << "Proper file usage: ./lista_clientes [posibles_clientes.txt] [number of slots]" << endl;
 		return 1;
 	}
 	else{
@@ -59,14 +59,19 @@ int main(int argc, char ** argv){
 		cout << "Clients selected for this commission opening:" << endl;
 		cout << "//////////////////////////////////////////////" << endl;
 
-		int slot;
+		int slot; 
+		int slots = atoi(argv[2]); //You pass number of slots as an argument
+
 		std::srand(static_cast<unsigned int>(std::time(nullptr)));
-		while(escogidos.size() < 10 && !found_all(clientes, escogidos)){
+		while(escogidos.size() < slots && !found_all(clientes, escogidos)){
 			slot = rand() % clientes.size();
 			if(!found(escogidos, clientes[slot]))
 				escogidos.push_back(clientes[slot]);
 		}
 
+		if(found_all(clientes, escogidos))
+			cout << "All clients found." << endl;
+			
 		for(auto cl : escogidos){
 			cout << cl << endl;
 		}
