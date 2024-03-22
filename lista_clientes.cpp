@@ -13,6 +13,13 @@ bool found(vector<string> w, string s){
 	}
 	return found;
 }
+bool found_all(vector<string> v, vector<string> w){
+	bool did_find = true;
+	for(auto it = v.begin(); it != v.end() && did_find; it++){
+		did_find = found(w, *it);
+	}
+	return did_find;
+}
 
 /*
 * @brief Devuelve el correo de 10 clientes aleatoriamente de manera randomizada según
@@ -52,7 +59,7 @@ int main(int argc, char ** argv){
 
 		int slot;
 		std::srand(static_cast<unsigned int>(std::time(nullptr)));
-		for(int i=0; i < 10; i++){
+		while(escogidos.size() < 10 && !found_all(clientes, escogidos)){
 			slot = rand() % clientes.size();
 			if(!found(escogidos, clientes[slot]))
 				escogidos.push_back(clientes[slot]);
