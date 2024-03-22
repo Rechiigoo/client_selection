@@ -32,7 +32,7 @@ correos dados
 int main(int argc, char ** argv){
 	if(argc != 3){
 		cout << "Need to have a .txt file as a secondary argument." << endl;
-		cout << "Proper file usage: ./lista_clientes [posibles_clientes.txt] [number of slots]" << endl;
+		cout << "Proper file usage: ./lista_clientes [possible_clientes.txt] [number of slots]" << endl;
 		return 1;
 	}
 	else{
@@ -71,7 +71,7 @@ int main(int argc, char ** argv){
 
 		if(found_all(clientes, escogidos))
 			cout << "All clients found." << endl;
-			
+
 		for(auto cl : escogidos){
 			cout << cl << endl;
 		}
