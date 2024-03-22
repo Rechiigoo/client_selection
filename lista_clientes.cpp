@@ -50,6 +50,8 @@ int main(int argc, char ** argv){
 		
 		inputFile.close();
 
+		cout << "Generating list of clients, please wait..." << endl;
+
 		ofstream outfile("clients.txt");
 		streambuf *coutbuf = cout.rdbuf();
 		cout.rdbuf(outfile.rdbuf());
