@@ -31,8 +31,8 @@ correos dados
 */
 int main(int argc, char ** argv){
 	if(argc != 2){
-		cout << "Debes poner el fichero de correos para leer." << endl;
-		cout << "Uso del archivo: ./lista_clientes [posibles_clientes.txt]" << endl;
+		cout << "Need to have a .txt file as a secondary argument." << endl;
+		cout << "Proper file usage: ./lista_clientes [posibles_clientes.txt]" << endl;
 		return 1;
 	}
 	else{
