@@ -3,8 +3,8 @@ Generating winners, please wait...
 Raffle winner:
 //////////////////////////////////////////////
 
-Winner is: Angy
-Second winner is: Jikastu
+Winner is: Kira
+Second winner is: Jackoboi
 
 Process finished.
 Generating winners, please wait...
@@ -12,8 +12,8 @@ Generating winners, please wait...
 Raffle winner:
 //////////////////////////////////////////////
 
-Winner is: Alfa
-Second winner is: Sini
+Winner is: Daxter
+Second winner is: Jenna
 
 Process finished.
 Generating winners, please wait...
@@ -21,52 +21,7 @@ Generating winners, please wait...
 Raffle winner:
 //////////////////////////////////////////////
 
-Winner is: Roci
-Second winner is: Neizu
-
-Process finished.
-Generating winners, please wait...
-//////////////////////////////////////////////
-Raffle winner:
-//////////////////////////////////////////////
-
-Winner is: SlythAngel
-Second winner is: Anya
-
-Process finished.
-Generating winners, please wait...
-//////////////////////////////////////////////
-Raffle winner:
-//////////////////////////////////////////////
-
-Winner is: Jodrik
-Second winner is: Peachette
-
-Process finished.
-Generating winners, please wait...
-//////////////////////////////////////////////
-Raffle winner:
-//////////////////////////////////////////////
-
-Winner is: Roci
-Second winner is: bluecinner
-
-Process finished.
-Generating winners, please wait...
-//////////////////////////////////////////////
-Raffle winner:
-//////////////////////////////////////////////
-
-Winner is: Cyros
-Second winner is: Driuzz
-
-Process finished.
-Generating winners, please wait...
-//////////////////////////////////////////////
-Raffle winner:
-//////////////////////////////////////////////
-
-Winner is: Daniela
+Winner is: Naana
 Second winner is: AroaKeyna
 
 Process finished.
@@ -75,8 +30,8 @@ Generating winners, please wait...
 Raffle winner:
 //////////////////////////////////////////////
 
-Winner is: Zexion
-Second winner is: Layra
+Winner is: Arcaligo
+Second winner is: Fyrne
 
 Process finished.
 Generating winners, please wait...
@@ -85,6 +40,51 @@ Raffle winner:
 //////////////////////////////////////////////
 
 Winner is: Glam
-Second winner is: AroaKeyna
+Second winner is: Kireno
+
+Process finished.
+Generating winners, please wait...
+//////////////////////////////////////////////
+Raffle winner:
+//////////////////////////////////////////////
+
+Winner is: bluecinner
+Second winner is: Glam
+
+Process finished.
+Generating winners, please wait...
+//////////////////////////////////////////////
+Raffle winner:
+//////////////////////////////////////////////
+
+Winner is: Super
+Second winner is: Arcaligo
+
+Process finished.
+Generating winners, please wait...
+//////////////////////////////////////////////
+Raffle winner:
+//////////////////////////////////////////////
+
+Winner is: Driuzz
+Second winner is: Sorcery
+
+Process finished.
+Generating winners, please wait...
+//////////////////////////////////////////////
+Raffle winner:
+//////////////////////////////////////////////
+
+Winner is: Arcaligo
+Second winner is: Mojita
+
+Process finished.
+Generating winners, please wait...
+//////////////////////////////////////////////
+Raffle winner:
+//////////////////////////////////////////////
+
+Winner is: Zweida
+Second winner is: Antonio
 
 Process finished.
